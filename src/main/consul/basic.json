@@ -1,0 +1,13 @@
+{
+  "ports": {
+    "http": 35010,
+    "dns": 35011,
+    "serf_lan": 35013,
+    "serf_wan": 35014,
+    "server": 35015
+  },
+  "bootstrap":true,
+  "bootstrap_expect":1,
+  "data_dir":"~/.spring-cloud/consul/data",
+  "retry_join":"http://127.0.0.1:35015/"
+}
