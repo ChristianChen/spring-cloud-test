@@ -13,7 +13,7 @@ web UI:
 http://localhost:8500/ui
 
 config:
-<code>
+<p><code>
 acl_token：agent会使用这个token和consul server进行请求
 acl_ttl：控制TTL的cache，默认是30s
 addresses：一个嵌套对象，可以设置以下key：dns、http、rpc
@@ -42,5 +42,5 @@ retry_interval：等同于-retry-interval
 server：等同于-server
 syslog_facility：当enable_syslog被提供后，该参数控制哪个级别的信息被发送，默认Local0
 ui_dir：等同于-ui-dir
-</code>
+</code></p>
 
